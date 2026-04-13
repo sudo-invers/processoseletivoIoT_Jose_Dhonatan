@@ -116,7 +116,7 @@ A simulação do projeto será executada automaticamente via GitHub Actions, uti
 
 Para isso, você precisa gerar uma API Key.
 
-1. Acesse: https://wokwi.com/dashboard/cli
+1. Acesse: https://wokwi.com/dashboard/ci
 2. Faça login (Google ou GitHub)
 3. Clique em Generate API Token
 4. Copie a chave gerada (exemplo: wokwi-xxxxxxxx)

@@ -6,7 +6,9 @@ class Buttons:
     def __init__(self):
 
         self.feed_btn = Pin(14, Pin.IN, Pin.PULL_UP)
+
         self.play_btn = Pin(27, Pin.IN, Pin.PULL_UP)
+
         self.sleep_btn = Pin(26, Pin.IN, Pin.PULL_UP)
 
         self.last_press = 0
@@ -19,6 +21,7 @@ class Buttons:
             return False
 
         self.last_press = now
+
         return True
 
     def read(self):

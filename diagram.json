@@ -52,10 +52,10 @@
     [ "esp:TX", "$serialMonitor:RX", "", [] ],
     [ "esp:RX", "$serialMonitor:TX", "", [] ],
 
-    [ "esp:21", "oled:SDA", "green", [] ],
-    [ "esp:22", "oled:SCL", "yellow", [] ],
-    [ "esp:3V3", "oled:VCC", "red", [] ],
-    [ "esp:GND.1", "oled:GND", "black", [] ],
+    [ "esp:21", "oled:DATA", "green", [] ],
+    [ "esp:22", "oled:CLK", "yellow", [] ],
+    [ "esp:3V3", "oled:3V3", "red", [] ],
+    [ "esp:GND.1", "oled:GND", "black", [] ]
 
     [ "esp:14", "btnFeed:1.l", "green", [] ],
     [ "btnFeed:2.r", "esp:GND.1", "black", [] ],

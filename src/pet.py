@@ -57,7 +57,7 @@ class Pet:
     def sleep(self):
 
         print("Sleeping...")
-        if (self.hunger < 20 and self.happiness > 80 and self.energy > 10)
+        if self.hunger < 20 and self.happiness > 80 and self.energy > 10:
             self.health += 2
 
         self.energy += 25

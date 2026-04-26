@@ -3,7 +3,7 @@ from buttons import Buttons
 from display import Display
 import time
 
-print("Test")  # For some reason, this is needed for the CI to work...
+print("Teste")  # For some reason, this is needed for the CI to work...
 
 pet = Pet("Byte")
 buttons = Buttons()

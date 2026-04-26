@@ -17,6 +17,7 @@ class Buttons:
 
         now = time.ticks_ms()
 
+        # Wait 250 miliseconds before the player can make another action
         if time.ticks_diff(now, self.last_press) < 250:
             return False
 

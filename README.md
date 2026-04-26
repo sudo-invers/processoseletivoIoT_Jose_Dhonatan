@@ -1,4 +1,4 @@
-## 📝 Relatório do Candidato
+## Relatório do Candidato
 
 **Nome completo:** Jose Dhonatan Fernandes de Almeida  
 **GitHub:** [sudoinvers](https://github.com/sudo-invers)

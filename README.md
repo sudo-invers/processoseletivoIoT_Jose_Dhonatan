@@ -84,7 +84,7 @@ Intervalo de atualização:
 3000 ticks = 3000 ms
 ```
 
-# 3. Componentes Utilizados
+# Componentes Utilizados
 
 ## Placa
 
@@ -106,8 +106,6 @@ Função:
 - exibir humor  
 - mostrar status  
 - interface visual do pet
-
----
 
 ## Botões
 
@@ -154,7 +152,7 @@ Validação automática de:
 - boot do firmware  
 - execução da simulação
 
-# 5. Resultados Obtidos
+# Resultados Obtidos
 
 ## Funcionalidades implementadas
 
@@ -175,7 +173,7 @@ O sistema:
 - altera humor conforme condições  
 - atualiza visualmente o display
 
-# 6. Comentários Adicionais
+# Comentários Adicionais
 
 ## Dificuldades encontradas
 
@@ -239,7 +237,7 @@ Executado com:
 ## Autor
 
 Jose Dhonatan Fernandes de Almeida
-GitHub: https://github.com/sudoinvers
+GitHub: https://github.com/sudo-invers
 
-## Agradecimentos
+## Agradecimentos-
 Agradeço ao time do Pnaat, pelo prazer de realizar esse projeto, e pelos ensinamentos que me foram dados para que conseguisse fazer. Agradeço também, ao pipeline de CI que me foi fornecido

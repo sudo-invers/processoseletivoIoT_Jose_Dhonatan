@@ -236,8 +236,8 @@ Executado com:
 
 ## Autor
 
-Jose Dhonatan Fernandes de Almeida
-GitHub: https://github.com/sudo-invers
+- Jose Dhonatan Fernandes de Almeida
+- GitHub: https://github.com/sudo-invers
 
-## Agradecimentos-
+## Agradecimentos
 Agradeço ao time do Pnaat, pelo prazer de realizar esse projeto, e pelos ensinamentos que me foram dados para que conseguisse fazer. Agradeço também, ao pipeline de CI que me foi fornecido

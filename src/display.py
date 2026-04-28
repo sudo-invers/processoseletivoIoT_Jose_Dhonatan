@@ -42,3 +42,23 @@ class Display:
         self.oled.text("H:" + str(pet.health), 0, 54)
 
         self.oled.show()
+
+    def draw_frame(self, frame):
+
+        self.oled.fill(0)
+
+        y = 0
+
+        for line in frame:
+            self.oled.text(line, 0, y)
+
+            y += 8
+
+        self.oled.show()
+
+    def play_animation(self, frames, delay=400):
+
+        for frame in frames:
+            self.draw_frame(frame)
+
+            time.sleep_ms(delay)

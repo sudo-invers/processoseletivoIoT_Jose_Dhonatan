@@ -1,5 +1,6 @@
 from machine import Pin, SoftI2C
 import ssd1306
+import time
 
 
 class Display:

@@ -1,7 +1,7 @@
 from pet import Pet
 from buttons import Buttons
 from display import Display
-from animarions import EAT_ANIMATION, PLAY_ANIMATION, SLEEP_ANIMATION
+from animations import EAT_ANIMATION, PLAY_ANIMATION, SLEEP_ANIMATION
 import time
 
 

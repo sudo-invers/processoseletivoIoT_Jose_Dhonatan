@@ -4,8 +4,7 @@ from display import Display
 from animations import EAT_ANIMATION, PLAY_ANIMATION, SLEEP_ANIMATION
 import time
 
-
-print("test")  # Needed for CI
+print("Teste")  # For some reason, this is needed for the CI to work...
 
 pet = Pet("Byte")
 buttons = Buttons()

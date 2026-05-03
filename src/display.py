@@ -16,21 +16,20 @@ class Display:
 
         mood = pet.mood()
 
-        match mood:
-            case "happy":
-                face = "^_^"
+        if mood == "happy":
+            face = "^_^"
 
-            case "hungry":
-                face = "T_T"
+        elif mood == "hungry":
+            face = "T_T"
 
-            case "tired":
-                face = "-_-"
+        elif mood == "tired":
+            face = "-_-"
 
-            case "sick":
-                face = "x_x"
+        elif mood == "sick":
+            face = "x_x"
 
-            case _:  # Neutral
-                face = "o_o"
+        else:  # Neutral
+            face = "o_o"
 
         # Set the status to the user see what is happening
         self.oled.text(pet.name, 0, 0)

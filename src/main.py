@@ -38,7 +38,7 @@ while pet.alive:
 
     if action == "feed":
         # Play apple animation
-        screen.play_animation(EAT_ANIMATION, delay=600)
+        screen.play_animation(EAT_ANIMATION, delay=100)
 
         # Apply game logic
         pet.feed()
@@ -48,7 +48,7 @@ while pet.alive:
 
     elif action == "play":
         # Play ball animation
-        screen.play_animation(PLAY_ANIMATION, delay=400)
+        screen.play_animation(PLAY_ANIMATION, delay=200)
 
         pet.play()
 
@@ -56,7 +56,7 @@ while pet.alive:
 
     elif action == "sleep":
         # Play sleep scene
-        screen.play_animation(SLEEP_ANIMATION, delay=800)
+        screen.play_animation(SLEEP_ANIMATION, delay=600)
 
         pet.sleep()
 
